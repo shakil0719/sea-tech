@@ -10,7 +10,7 @@ import {
 } from "@stripe/react-stripe-js";
 
 const stripePromise = loadStripe(
-  "pk_test_51L3hdmGERp59vmo7edtePK1E42lWUFT91PB2mNz7JjX0otnN9AmbQTTITlE0TDoXGUvwiP6puLVdmXSKHVqUcjjk00H8kU6dGV"
+  "pk_test_51L4QkaB0ROtxdV0Z7jzlhldxdQMViaYvaPfnnUZHRqewsYpWFcqojYEiKUbn8qZFAiLbwhBnbvBD7tHgg5xnPnb8005xpKg9PF"
 );
 
 const Payment = ({}) => {
