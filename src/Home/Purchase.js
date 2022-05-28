@@ -42,7 +42,7 @@ const Purchase = () => {
   useEffect(() => {
     const run = async () => {
       const { data } = await axios.get(
-        `https://sea-tech.herokuapp.com/product?id=${_id}`,
+        ` https://ja-ischa.herokuapp.com/product?id=${_id}`,
         {
           headers: {
             authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -68,7 +68,7 @@ const Purchase = () => {
       phone: event.target.phone.value,
       status: "not payed",
     };
-    fetch("https://sea-tech.herokuapp.com/order", {
+    fetch(" https://ja-ischa.herokuapp.com/order", {
       method: "POST",
       headers: {
         "content-type": "application/json",

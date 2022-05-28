@@ -9,7 +9,7 @@ const Review = () => {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     const run = async () => {
-      const { data } = await axios.get("https://sea-tech.herokuapp.com/review");
+      const { data } = await axios.get(" https://ja-ischa.herokuapp.com/review");
       setReviews(data);
       setLoading(true);
     };

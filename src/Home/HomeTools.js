@@ -10,7 +10,7 @@ const HomeTools = () => {
   useEffect(() => {
     const run = async () => {
       const { data } = await axios.get(
-        "https://sea-tech.herokuapp.com/products"
+        " https://ja-ischa.herokuapp.com/products"
       );
       setProducts(data);
       setFlag(false);

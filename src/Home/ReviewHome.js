@@ -10,7 +10,7 @@ const ReviewHome = () => {
   useEffect(() => {
     const run = async () => {
       const { data } = await axios.get(
-        "https://sea-tech.herokuapp.com/homeReview"
+        " https://ja-ischa.herokuapp.com/homeReview"
       );
       setReviews(data);
       setFlag(false);

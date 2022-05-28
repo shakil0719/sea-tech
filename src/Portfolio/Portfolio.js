@@ -1,6 +1,6 @@
 import React from "react";
 import { Wave } from "react-animated-text";
-import myImage from "../img/275734624_2168528319968208_1773411271327317452_n.jpg";
+import myImage from "../img/gg.jpg"
 import aghs from "../img/AGHS (1).jpg";
 import bmarpc from "../img/bmarpc.jpg";
 import uiu from "../img/uiu.jpg";
@@ -20,10 +20,10 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="pt-10 font-serif">
-          <h1 className="text-2xl md:text-5xl">Name: Md. Omar Shahariar</h1>
+          <h1 className="text-2xl md:text-5xl">Name: Shakil al jabir</h1>
           <h1 className=" text-2xl md:text-5xl py-4">(Web Developer)</h1>
           <h1 className=" text-base md:text-2xl ">
-            Email: osafridi00@gmail.com
+            Email: Shakil.galib8@gmail.com
           </h1>
         </div>
       </div>
@@ -44,11 +44,11 @@ const Portfolio = () => {
               </div>
               <div>
                 <h1 className="text-center text-xs sm:text-lg pt-5 font-serif font-bold">
-                  United International University
+                  Limkokwing unicersity
                 </h1>
                 <h1 className="font-serif">(2021)</h1>
                 <h1 className="font-serif font-bold">BSc. in CSE</h1>
-                <h1 className="font-serif font-bold">CGPA: 3.4</h1>
+                <h1 className="font-serif font-bold">CGPA: 3.6</h1>
               </div>
             </div>
             <div>
@@ -62,7 +62,7 @@ const Portfolio = () => {
               </div>
               <div>
                 <h1 className="text-center text-xs sm:text-lg pt-5 font-serif font-bold">
-                  Armanitola Govt High School
+                  Bank colony school 
                 </h1>
                 <h1 className="font-serif">(2014)</h1>
                 <h1 className="font-serif font-bold">GPA: 5.00</h1>
@@ -85,10 +85,10 @@ const Portfolio = () => {
               </div>
               <div>
                 <h1 className="text-center text-xs sm:text-lg pt-5 font-serif font-bold">
-                  BirShrestha Minshi Abdur Rouf
+                  Mes College
                 </h1>
-                <h1 className="font-serif">(2016)</h1>
-                <h1 className="font-serif font-bold">GPA: 5.00</h1>
+                <h1 className="font-serif">(2013)</h1>
+                <h1 className="font-serif font-bold">GPA: 4.30</h1>
               </div>
             </div>
           </div>

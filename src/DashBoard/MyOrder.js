@@ -11,7 +11,7 @@ const MyOrder = () => {
   const [flag, setFlag] = useState(true);
 
   useEffect(() => {
-    fetch(`https://sea-tech.herokuapp.com/myOrder?email=${user?.email}`, {
+    fetch(` https://ja-ischa.herokuapp.com/myOrder?email=${user?.email}`, {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,

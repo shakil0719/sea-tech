@@ -14,7 +14,7 @@ const ManageAllProduct = () => {
   // const [availableQuantity, setAvailableQuantity] = useState([]);
 
   useEffect(() => {
-    fetch(`https://sea-tech.herokuapp.com/allOrder`, {
+    fetch(` https://ja-ischa.herokuapp.com/allOrder`, {
       method: "GET",
       headers: {
         authorization: `Bearer ${localStorage.getItem("accessToken")}`,

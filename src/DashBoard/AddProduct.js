@@ -37,7 +37,7 @@ const AddProduct = () => {
           };
 
           //send data to database
-          fetch("https://sea-tech.herokuapp.com/addProduct", {
+          fetch(" https://ja-ischa.herokuapp.com/addProduct", {
             method: "POST",
             headers: {
               "content-type": "application/json",
